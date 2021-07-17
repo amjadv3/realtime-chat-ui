@@ -1,0 +1,49 @@
+/* .infoBar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #2979ff;
+	border-radius: 4px 4px 0 0;
+	height: 60px;
+	width: 100%;
+}*/
+
+.leftInnerContainer {
+	flex: 0.5;
+	display: flex;
+	align-items: center;
+	margin-left: 5%;
+	color: black;
+}
+
+.rightInnerContainer {
+	display: flex;
+	flex: 0.5;
+	justify-content: flex-end;
+	margin-right: 5%;
+}
+
+.onlineIcon {
+	margin-right: 5%;
+}
+
+.infoBar {
+	background: rgb(255, 255, 255);
+	display: flex;
+	height: 54px;
+	width: 100%;
+	border: 1px solid #dbdbdb;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin-bottom: 5px;
+}
+
+.logoutBtn {
+	color: rgb(214, 26, 26);
+	font-weight: 100;
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+}
